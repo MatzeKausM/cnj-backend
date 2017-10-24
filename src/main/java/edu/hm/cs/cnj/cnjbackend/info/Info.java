@@ -15,3 +15,4 @@ public class Info {
 		this.message = message;
 	}
 }
+//test
