@@ -1,9 +1,9 @@
 spring:
   application:
-    name: hm-krug0-cnj
+    name: hm-katz-cnj
 ---
 spring:
   profiles: dev, cloud
   cloud:
     config:
-      uri: https://hm-krug0-config-server.cfapps.io
+      uri: https://hm-katz-config-server.cfapps.io
