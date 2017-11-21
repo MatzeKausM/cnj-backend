@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: hm-katz-cnj
+---
+spring:
+  profiles: dev, cloud
+  cloud:
+    config:
+      uri: https://hm-katz-config-server.cfapps.io
