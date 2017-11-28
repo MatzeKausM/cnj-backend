@@ -1,7 +1,12 @@
 package edu.hm.cs.cnj.cnjbackend.info;
 
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+
+@ApiModel("Server-Info")
 public class Info {
-	String message;
+	@ApiModelProperty(example = "Allet super!", readOnly = true)
+	private String message;
 
 	public Info() {
 		// Default constructor.
